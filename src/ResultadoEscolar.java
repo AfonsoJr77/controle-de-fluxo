@@ -7,7 +7,7 @@ public class ResultadoEscolar {
         if(nota >= 7)
             System.out.println("Aprovado");
 
-        else if(nota >= 5 && nota < 7)
+        else if(nota >= 5 && nota < 7) //Sempre tem que retornar ou true ou false
             System.out.println("Recuperação");
         
             else
